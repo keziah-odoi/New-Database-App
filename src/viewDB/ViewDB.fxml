@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewDB.ViewDBController">
+   <children>
+      <TableView fx:id="tablePersons" layoutX="56.0" layoutY="126.0" prefHeight="600.0" prefWidth="800.0" stylesheets="@viewdb.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="colLastName" prefWidth="150.0" text="Last Name" />
+            <TableColumn fx:id="colFirstName" prefWidth="150.0" text="First Name" />
+            <TableColumn fx:id="colMI" prefWidth="150.0" text="Middle Initial" />
+            <TableColumn fx:id="colGender" prefWidth="150.0" text="Gender" />
+            <TableColumn fx:id="colDesignation" prefWidth="150.0" text="Designation" />
+        </columns>
+         <padding>
+            <Insets top="40.0" />
+         </padding>
+      </TableView>
+   </children>
+</AnchorPane>

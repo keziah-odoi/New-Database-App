@@ -1,0 +1,11 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.mainFxmlClass {
+
+}
+.dropdown {
+    -fx-font-family: 'Dubai Light', sans-serif;
+    -fx-text-fill:#97bcf7;
+}

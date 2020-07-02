@@ -1,0 +1,58 @@
+
+.body {
+    -fx-background-color: white;
+}
+
+.vbox {
+   -fx-position: fixed;
+   -fx-width: 200px;
+   -fx-height: 600%;
+   -fx-background-color: #136cba;
+   -fx-padding: 0px, 30px;
+   -fx-text-fill: white;
+   -fx-font-family: 'Dubai', sans-serif;
+}
+.vbox-header {
+    -fx-font-size: 50px;
+    -fx-letter-spacing: 2px;
+}
+
+.menu-selection {
+    -fx-text-align: left;
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-background-color: #136cba; 
+
+}
+
+.menu-selection:hover {
+    -fx-background-color: #f3f5f9;
+    -fx-border: 1px solid white;
+    -fx-background-radius: 25px;
+    -fx-text-fill: #92c9e2;
+    -fx-cursor: hand;
+    
+}
+
+.main-header {
+  -fx-font-family: 'Dubai', sans-serif;
+  -fx-font-size: 30px;
+  -fx-background: white;
+  -fx-text-align: center;
+  -fx-border-bottom-color: black;
+}
+
+.display-buttons {
+    -fx-border-color: #136cba;
+    -fx-background-color: white;
+    -fx-font-family: 'Dubai', sans-serif;
+    -fx-font-size: 20px;
+    -fx-text-fill: #136cba;
+    
+}
+
+.display-buttons:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #8cc5d4;
+    
+}
